@@ -5,7 +5,7 @@ const API_BASE_URL = '/api';
 
 // Detect if running in mobile app (Capacitor)
 const isCapacitor = () => {
-  return !!(window as any).Capacitor;
+  return !!(window as typeof window & { Capacitor?: unknown }).Capacitor;
 };
 export const api = {
   // Categories
@@ -111,7 +111,7 @@ export const api = {
       return response.json();
     } catch (error) {
       console.log('Falling back to offline mode for image upload');
-      return  {success:false,error:'Falling back to offline mode for update product'};;
+      return  {success:false,error:'Falling back to offline mode for update product'};
     }
   },
 

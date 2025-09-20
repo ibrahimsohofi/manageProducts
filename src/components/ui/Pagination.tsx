@@ -112,7 +112,7 @@ export function Pagination({
             if (page === 'ellipsis') {
               return (
                 <div
-                  key={`ellipsis-${index}`}
+                  key={`ellipsis-${index}-${pageNumbers.length}`}
                   className="flex items-center justify-center w-8 h-8"
                 >
                   <MoreHorizontal className="h-4 w-4 text-gray-400" />

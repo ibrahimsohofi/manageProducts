@@ -105,6 +105,7 @@ function Dashboard() {
   // Reset to first page when search or category changes
   useEffect(() => {
     setCurrentPage(1);
+    // biome-ignore lint/correctness/useExhaustiveDependencies: intentional dependency to reset page on search/category change
   }, [debouncedSearch, selectedCategory]);
 
   // Handle errors

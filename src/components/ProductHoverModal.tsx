@@ -18,7 +18,7 @@ export function ProductHoverModal({ product, categories, position, isVisible }: 
 
   useEffect(() => {
     setImageError(false);
-  }, [product?.image_url]);
+  }, [product?.image_url]); // eslint-disable-line react-hooks/exhaustive-deps
 
   if (!product || !isVisible) {
     return null;

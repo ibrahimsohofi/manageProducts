@@ -36,7 +36,7 @@ export function ViewProduct({ product, categories }: ViewProductProps) {
   const navigate = useNavigate();
   useEffect(() => {
     setImageError(false);
-  }, [product?.image_url]);
+  }, [product?.image_url]); // eslint-disable-line react-hooks/exhaustive-deps
   if (!product) {
     return null;
   }

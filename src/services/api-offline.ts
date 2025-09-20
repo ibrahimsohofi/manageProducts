@@ -95,12 +95,12 @@ export const offlineApi = {
       const searchLower = search.toLowerCase();
       products = products.filter(product =>
         product.name.toLowerCase().includes(searchLower) ||
-        (product.description && product.description.toLowerCase().includes(searchLower))
+        (product.description?.toLowerCase().includes(searchLower))
       );
     }
 
     if (category !== 'all') {
-      products = products.filter(product => product.category_id === parseInt(category));
+      products = products.filter(product => product.category_id === Number.parseInt(category));
     }
 
     // Sort by created_at desc
