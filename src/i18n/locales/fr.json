@@ -1,0 +1,163 @@
+{
+  "app": {
+    "title": "JAMALBRICO",
+    "subtitle": "Quincaillerie & Bricolage - Maroc"
+  },
+  "business": {
+    "name": "JAMALBRICO",
+    "tagline": "",
+    "address": "123 Rue Hassan II, Casablanca, Maroc",
+    "phone": "+212 522 123 456",
+    "email": "contact@drogueriejamal.ma"
+  },
+  "nav": {
+    "inventory": "Inventaire",
+    "products": "Produits",
+    "categories": "Catégories",
+    "reports": "Rapports"
+  },
+  "theme": {
+    "light": "Clair",
+    "dark": "Sombre",
+    "system": "Système"
+  },
+  "dashboard": {
+    "title": "Gestion des Produits",
+    "subtitle": "Gérez votre inventaire et vos produits",
+    "loading": "Chargement..."
+
+  },
+  "stats": {
+    "totalProducts": "Total Produits",
+    "totalProductsDesc": "produits en inventaire",
+    "stockValue": "Valeur Stock",
+    "stockValueDesc": "valeur totale du stock",
+    "lowStock": "Stock Faible",
+    "lowStockDesc": "produits sous le seuil"
+  },
+  "products": {
+    "add": "Ajouter un produit",
+    "edit": "Modifier le produit",
+    "delete": "Supprimer",
+    "id":"ID",
+    "image":"image",
+    "list": "Liste des Produits",
+    "listDesc": "Gérez vos produits, prix et inventaire",
+    "search": "Rechercher un produit...",
+    "searchPlaceholder": "Rechercher par nom ou description...",
+    "noProducts": "Aucun produit trouvé",
+    "name": "Produit",
+    "category": "Catégorie",
+    "purchasePrice": "Prix d'achat",
+    "sellingPrice": "Prix de vente",
+    "stock": "Stock",
+    "minStock":"Stock minimum",
+    "status": "Statut",
+    "actions": "Actions",
+    "productNotFound":"Désolé, le produit que vous recherchez est introuvable.",
+    "relatedProducts": "Produits similaires",
+    "found": "produit(s) trouvé(s)",
+    "noResultsFor": "Aucun résultat pour",
+    "tryDifferentKeywords": "Essayez avec d'autres mots-clés"
+  },
+  "form": {
+    "productName": "Nom du produit",
+    "productNamePlaceholder": "Nom du produit",
+    "description": "Description (optionnelle)",
+    "descriptionPlaceholder": "Description du produit",
+    "category": "Catégorie",
+    "categoryPlaceholder": "Sélectionner une catégorie",
+    "purchasePrice": "Prix d'achat (DH)",
+    "sellingPrice": "Prix de vente (DH)",
+    "currentStock": "Stock actuel",
+    "minThreshold": "Seuil minimum",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "saving": "Enregistrement...",
+    "addProduct": "Ajouter un produit",
+    "editProduct": "Modifier le produit",
+    "addProductDesc": "Ajoutez un nouveau produit à votre inventaire.",
+    "editProductDesc": "Modifiez les informations du produit.",
+    "productImage": "Image du produit",
+    "noImageSelected": "Aucune image sélectionnée",
+    "chooseImage": "Choisir une image",
+    "removeImage": "Supprimer",
+    "uploading": "Téléchargement...",
+    "imageFormats": "Formats supportés: JPG, PNG, GIF. Taille maximale: 5MB",
+    "imageTypeError": "Veuillez sélectionner un fichier image",
+    "imageSizeError": "La taille de l'image ne doit pas dépasser 5MB",
+    "imageUploadSuccess": "Image téléchargée avec succès",
+    "imageUploadError": "Erreur lors du téléchargement de l'image"
+  },
+  "categories": {
+    "all": "Toutes les catégories",
+    "filter": "Filtrer par catégorie",
+    "none": "Aucune",
+    "droguerie": "Droguerie",
+    "sanitaire": "Sanitaire",
+    "peinture": "Peinture",
+    "quincaillerie": "Quincaillerie",
+    "outillage": "Outillage",
+    "electricite": "Électricité"
+  },
+  "categoryDescriptions": {
+    "droguerie": "Produits chimiques, adhésifs, mastics et composés spécialisés",
+    "sanitaire": "Équipements de plomberie, tuyaux, robinets, chauffe-eau",
+    "peinture": "Peintures, apprêts, pinceaux, rouleaux et accessoires",
+    "quincaillerie": "Fixations, vis, boulons, écrous, charnières, serrures",
+    "outillage": "Outils à main, outils électriques, équipements de sécurité",
+    "electricite": "Composants électriques, câblage, interrupteurs, luminaires"
+  },
+  "status": {
+    "outOfStock": "Rupture",
+    "lowStock": "Stock faible",
+    "inStock": "En stock"
+  },
+  "actions": {
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "confirm": "Confirmer",
+    "cancel": "Annuler",
+    "goBack":"Retour",
+    "backToDashboard":"Retour au tableau de bord"
+  },
+  "messages": {
+    "productAdded": "Produit ajouté avec succès",
+    "productUpdated": "Produit modifié avec succès",
+    "productDeleted": "Produit supprimé avec succès",
+    "errorLoading": "Impossible de charger les données",
+    "errorSaving": "Impossible de sauvegarder le produit",
+    "errorDeleting": "Impossible de supprimer le produit",
+    "searching": "Recherche en cours...",
+    "showingFirst10Results": "Affichage des 10 premiers résultats"
+  },
+  "dialog": {
+    "deleteTitle": "Confirmer la suppression",
+    "deleteMessage": "Êtes-vous sûr de vouloir supprimer le produit \"{{name}}\" ? Cette action est irréversible.",
+    "delete": "Supprimer",
+    "cancel": "Annuler"
+  },
+  "validation": {
+    "nameRequired": "Le nom est requis",
+    "categoryRequired": "La catégorie est requise",
+    "purchasePriceMin": "Le prix d'achat doit être supérieur à 0",
+    "sellingPriceMin": "Le prix de vente doit être supérieur à 0",
+    "stockMin": "Le stock doit être positif ou nul",
+    "thresholdMin": "Le seuil minimum doit être positif ou nul"
+  },
+  "errors":{
+    "productNotFound":"Désolé, le produit que vous recherchez est introuvable.",
+    "title":"Produit non trouvé"
+  },
+  "pagination": {
+    "showing": "Affichage de",
+    "to": "à",
+    "of": "sur",
+    "results": "résultats",
+    "first": "Premier",
+    "previous": "Précédent",
+    "next": "Suivant",
+    "last": "Dernier"
+  },
+  "currency": "DH"
+}
